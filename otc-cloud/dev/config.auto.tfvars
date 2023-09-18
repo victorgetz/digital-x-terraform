@@ -5,7 +5,7 @@ availability_zones = [
 vpc_cidr = "10.8.0.0/20"
 
 cluster_config = {
-  enable_scaling         = true
+  enable_scaling         = false
   high_availability      = false
   container_network_type = "overlay_l2"
   node_flavor            = "s3.xlarge.8"
